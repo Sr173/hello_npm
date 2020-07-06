@@ -2,7 +2,7 @@
 
 var addon = require('bindings')('hello');
 
-module.export = {
+module.exports = {
     get_cmd() {
         return addon.get_cmd()
     }
